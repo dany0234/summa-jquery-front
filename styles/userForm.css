@@ -1,0 +1,35 @@
+#user-form-element {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 20px auto;
+    direction: rtl;
+}
+
+#user-form-element input, #user-form-element button {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#user-form-element button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#user-form-element button:hover {
+    background-color: #45a049;
+}
+
+#image-preview {
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Project</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="services/api.js" defer></script>
+    <script src="utils/dom.js" defer></script>
+    <script src="components/userForm.js" defer></script>
+    <script src="components/userList.js" defer></script>
+    <script src="components/userDetails.js" defer></script>
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div id="app">
+        <div id="logo-container">
+            <img id="logo" src="Summa-Logo.png" alt="Logo">
+        </div>
+        <div id="notification" style="display:none;">משתמש חדש נוצר בהצלחה!</div>
+        <div id="user-form-container"></div>
+        <div id="user-list-container" style="display:none;"></div>
+        <div id="user-details-container" style="display:none;"></div>
+    </div>
+</body>
+</html>

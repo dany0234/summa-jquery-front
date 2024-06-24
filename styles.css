@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#app {
+    text-align: center;
+}
+
+#logo-container {
+    background-color: #092b47;
+    padding: 10px;
+}
+
+
+
+#logo {
+    cursor: pointer;
+    max-height: 100px;
+    width: auto;
+    transition: transform 0.3s ease;
+    padding-block: 1%;
+}
+
+#logo:hover {
+    transform: scale(1.1);
+
+}
+
+
+#notification {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    margin: 10px auto;
+    width: 300px;
+    border-radius: 4px;
+}

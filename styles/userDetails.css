@@ -1,0 +1,30 @@
+.user-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+    width: 300px;
+}
+
+.user-details img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.user-details div {
+    margin-bottom: 10px;
+}
+
+#back-to-list {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#back-to-list:hover {
+    background-color: #45a049;
+}
